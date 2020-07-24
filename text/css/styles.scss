@@ -1,0 +1,32 @@
+.csss{
+    display: grid;
+    transform: translateX(200px);
+    transition: all 1s;
+    width: max-content;
+    &__hello{
+        display: flexbox;
+    }
+}
+p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-transform: lowercase;
+}
+h3{
+    display: flex;
+}
+div{
+    position: relative;
+}
+span{
+    height: 100px;
+}
+.nunu{
+    display: inline;
+}
